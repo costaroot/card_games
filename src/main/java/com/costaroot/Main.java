@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Nike!");
         //Card card = new Card(Rank.values[0], Suit.values[0]);
-        //System.out.println(card.getRank().getName());
+    
 
         Derk derk = new Derk();
         System.out.println(derk.getCard().toString());
