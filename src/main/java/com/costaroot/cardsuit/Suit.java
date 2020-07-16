@@ -13,4 +13,9 @@ public class Suit {
     public static final Suit HEARTS = new Suit("Hearts");
 
     public static final Suit [] values = {CLUBS,SPADES,DIAMONDS,HEARTS};
+
+    @Override
+    public String toString() {
+        return suit +'\u2665';
+    }
 }

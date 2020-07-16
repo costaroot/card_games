@@ -13,6 +13,8 @@ public class Main {
         //System.out.println(card.getRank().getName());
 
         Derk derk = new Derk();
-        System.out.println(derk.getDerk());
+        System.out.println(derk.getCard().toString());
+        System.out.println(derk.getCard().toString());
+        System.out.println(derk.getCard().toString());
     }
 }

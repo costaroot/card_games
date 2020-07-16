@@ -10,13 +10,13 @@ public class Derk {
         derk = new LinkedList<>();
         for (Suit su:Suit.values) {
             for (Rank rnk:Rank.values) {
-                derk.add(new Card(rnk,su));
+                derk.push(new Card(rnk,su));
             }
         }
     }
 
-    public List<Card> getDerk() {
-        return derk;
+    public Card getCard() {
+        return derk.pop();
     }
 
 }
